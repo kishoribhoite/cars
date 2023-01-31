@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Buy Used Cars </title>
+<style type="text/css">
+#body {
+	background-color: #F0F8FF;
+}
+#heading {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #454545;
+	color: white;
+	text-align: center;
+	font-size: 36px;
+	padding: 15px;
+}
+#subheading {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #454545;
+	color: white;
+	text-align: center;
+	font-size: 24px;
+	padding: 15px;
+}
+#search {
+	background-color: #454545;
+	color: white;
+	text-align: center;
+	font-size: 16px;
+	padding: 15px;
+}
+#content {
+	background-color: #F0F8FF;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 15px;
+	margin: auto;
+	width: 70%;
+	text-align: center;
+}
+#footer {
+	background-color: #454545;
+	color: white;
+	text-align: center;
+	font-size: 12px;
+	padding: 15px;
+	margin-top: 20px;
+}
+</style>
+</head>
+
+<body id="body">
+<div id="heading">
+  <h1> Buy Used Cars </h1>
+</div>
+<div id="subheading">
+  <h2> We have the best selection of used cars in town! </h2>
+</div>
+<div id="search">
+  <form>
+    <input type="text" name="search" placeholder="Search for cars...">
+    <input type="submit" value="Search">
+  </form>
+</div>
+<div id="content">
+  <div>
+    <img src="car1.jpg" alt="Car 1" width="200" height="150">
+    <h3> Benz B4 </h3>
+    <p> Price: 2 lakhs </p>
+    <!-- <a href="car1.html"> Learn More </a> -->
+    
+  </div>
+  <div>
+    <img src="car2.jpg" alt="Car 2" width="200" height="150">
+    <h3> Lexus L3 </h3>
+    <p> Price: 3.5 lakhs </p>
+ 
+  </div>
+  <div>
+    <img src="truck.jpg" alt="Car 3" width="200" height="150">
+    <h3> Volvo truck</h3>
+    <p> Price: 4.5 Lakhs</p>
+ 
+  </div>
+</div>
+<div id="footer">
+  <p> Copyright &copy; 2020 Buy Used Cars. All rights reserved. </p>
+</div>
+
+</body>
+</html>
